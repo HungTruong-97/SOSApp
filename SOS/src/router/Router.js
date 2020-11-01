@@ -3,10 +3,11 @@ import {NavigationContainer} from '@react-navigation/native';
 import {createStackNavigator} from '@react-navigation/stack';
 
 import Login from '../components/Login/Login';
-import Warning from '../components/Warning/Warning';
+import Warning from '../components/Map/Map';
 import SelectRole from '../components/SelectRole/SelectRole';
 import InfoUser from '../components/InfoUser/InfoUser';
 import UserProfile from '../components/UserProfile/UserProfile';
+import BottomTab from './BottomTab';
 
 const Stack = createStackNavigator();
 
@@ -20,6 +21,7 @@ export default class Router extends React.Component{
                     <Stack.Screen name="Screen_SelectRole" component={SelectRole} />
                     <Stack.Screen name="Screen_InfoUser" component={InfoUser} />
                     <Stack.Screen name="Screen_UserProfile" component={UserProfile} />
+                    <Stack.Screen name="Screen_BottomTab" component={BottomTab} />
                 </Stack.Navigator>
             </NavigationContainer>
         );

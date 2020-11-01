@@ -84,7 +84,7 @@ const dataSourceSave2={
         coordinates: listStreet,
     },
 }
-export default class Warning extends Component {
+export default class Map extends Component {
 
     constructor(props) {
         super(props);

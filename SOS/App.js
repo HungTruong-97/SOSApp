@@ -16,7 +16,6 @@ import {
   StatusBar,
 } from 'react-native';
 
-import Warning from './src/components/Warning/Warning';
 import Router from './src/router/Router';
 
 const App: () => React$Node = () => {

@@ -24,7 +24,7 @@ export default class UserProfile extends Component {
     }
     
     onClickConfirm=()=>{
-        console.log("123");
+        this.props.navigation.navigate("Screen_BottomTab");
     }
     render() {
         return (
